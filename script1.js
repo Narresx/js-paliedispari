@@ -18,7 +18,7 @@ console.log(userNumber);
 
 function getRandomNumber(min, max) { //* Funzione che permette di generare un numero random compreso tra due estremi
     max++;
-    return Math.floor(Math.random() * (max - min)) + min;
+    return Math.floor(Math.random() * (max - min) + 1) + min;
 }
 
 const pcNumber = getRandomNumber(1, 5); // Generiamo un numero random compreso tra 1 e 5.
